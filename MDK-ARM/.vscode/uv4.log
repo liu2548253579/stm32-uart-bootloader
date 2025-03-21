@@ -1,0 +1,18 @@
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'stm32_bootloader'
+Note: source file '../Core/Src/system_stm32f1xx.c' - object file renamed from 'stm32_bootloader\system_stm32f1xx.o' to 'stm32_bootloader\system_stm32f1xx_1.o'.compiling main.c...
+linking...
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol SystemInit multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol __asm___18_system_stm32f1xx_c_5d646a67____REV16 multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol __asm___18_system_stm32f1xx_c_5d646a67____REVSH multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol __asm___18_system_stm32f1xx_c_5d646a67____RRX multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol AHBPrescTable multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol APBPrescTable multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol SystemCoreClock multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+stm32_bootloader\stm32_bootloader.axf: Error: L6200E: Symbol SystemCoreClockUpdate multiply defined (by system_stm32f1xx_1.o and system_stm32f1xx.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 8 error messages.
+"stm32_bootloader\stm32_bootloader.axf" - 8 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
